@@ -1,0 +1,8 @@
+drupalup_form.drupal_form:
+  path: 'drupal-form'
+  defaults:
+    _form: '\Drupal\drupal_form\Form\DrupalForm'
+    _title: 'Form'
+  requirements:
+    _permission: 'access content'
+
